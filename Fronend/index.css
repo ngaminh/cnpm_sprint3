@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------------------------------TRANG CHỦ ----------------------------------------- */
+/* page 1 */
+.contact-float{
+    position: absolute;
+    top: 900px;
+    left: 0;
+    /* z-index: 999; */
+    display: flex;
+    font-size: 3rem;
+}
+
+/* page2 */
+.pageHaiOfTrangChu{    
+    /* height: 1000px; */
+    background-color: #000;
+}
+
+.textOfHeaderItem{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* danh sách xe thuê */
+.pageBaOfTrangChu{
+    height: 1200px;
+    background-color: #000;
+}
+
+/* danh sách hệ thống cửa hàng */
+.pageBonOfTrangChu{
+    height: 500px;
+    background-color: #fff;
+}
+
+.pageNamOfTrangChu{    
+    height: 700px;
+    background-color: #000;
+}
+
+/* ------------------------------------TRANG DANH SÁCH THUÊ XE ---------------------------------- */
+/* page 1 of DS thuê xe */
+.pageOneOfDsThueXe{
+    /* height: 1000px; */
+    background-color: #fff;
+}
+.danhMucXe{
+    background-color: #000;
+    display: flex;
+    color: #fff;
+    width: 96%;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto; 
+    border-radius: 20px;    
+}
+
+/* page 2 of DS thuê xe */
+.pageHaiOfDsThueXe{
+    width: 96%;
+    margin: 0 auto;
+    background-color: rgb(209 213 219);
+    border-radius: 20px;
+    margin-top: 50px;
+}
